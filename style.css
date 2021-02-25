@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}                                                                    
+
+.body{
+    width: 100%;
+    height: 100vh;
+}
+
+.body-inner{
+    position: relative;
+    width: 90%;
+    margin: 15px auto 0 auto;
+    display: flex;
+}
+
+.left-section{
+    position: fixed;
+    width: 17%;
+    border-right: 1px solid black;
+}
+
+div.left-section-inner div{
+    margin-bottom: 20px;
+}
+
+div.left-section-inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.menu{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.menu-inner{
+    width: 100%;
+}
+
+/* .menu ul{
+    width: 100%;
+} */
+
+.menu li{
+    list-style: none;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu span{
+    margin-right: 10px;
+}
+
+.menu-tweet-btn{
+    width: 60%;
+    padding: 12px 0px;
+    border-radius: 20px;
+    text-align: center;
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    background: rgb(26, 137, 202);
+}
+
+.owner-profile-details{
+    width:100%;
+    height: 50px;
+}
+
+.owner-profile-details-inner{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.owner-profile-pic{
+    width:25%;
+    height: 100%;
+}
+
+.owner-profile-identity{
+    width:60%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.owner-profile-name{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.owner-profile-username{
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+}
+
+.owner-profile-option-icon{
+    width:10%;
+    margin-right: 5%;
+    height:100%;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-section{
+    width: 50%;
+    margin-left: 20%;
+}
+
+.main-section-inner{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+    margin-bottom: 2px;
+}
+
+.tweet-box-section{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+    margin-bottom: 2px;
+}
+
+.tweet-box-section-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.owner-pic{
+    width: 10%;
+}
+
+.tweet-box{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet-form{
+    height: 80%;
+}
+
+.tweet-form input{
+    width: 90%;
+    height: 90%;
+    border:none;
+    font-size: 16px;
+}
+
+.tweet-addons{
+    width:100%;
+}
+
+.tweet-addons ul{
+    width: 40%;
+    display: flex;
+    background: grey;
+    justify-content: space-between;
+}
+
+.tweet-addons ul li{
+    list-style-type: none;
+}
+
+.tweet-btn{
+    display: flex;
+    position: relative;
+    top: 60%;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 40%;
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    background: rgb(26, 137, 202);
+}
+
+.feed-section{
+    width:100%;
+    border-top: 1px solid black;
+    margin-top: 10px;
+}
+
+.feed-section-inner{
+    width:100%;
+    margin-top: 10px;
+}
+
+.feed-tweet{
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+}
+
+.feed-tweet-inner{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+
+.tweeter-pic{
+    width: 10%;
+    display:flex;
+    justify-content: center;
+}
+
+.tweet-details{
+    width: 100%;
+}
+
+.tweeter-profile-details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tweeter-profile-details span:first-child{
+    width: 30%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.tweet-option{
+
+}
+
+.tweeter-tweet{
+    width: 90%;
+    margin-bottom: 2.5%;
+}
+
+.tweeter-addons{
+    width: 100%;
+}
+
+.tweeter-addons ul {
+    width: 60%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.tweeter-addons ul li{
+    list-style-type: none;
+}
+
+
+
+
+
+
+.right-section{
+    position: fixed;
+    background: blue;
+    width: 27%;
+    margin-left: 63%;
+}
+
+.right-section-inner{
+    width: 90%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    /* align-content: space-around;
+    justify-content: space-around; */
+}
+
+.search{
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.288);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search input{
+    border: none;
+    background-color: rgba(0, 0, 0,0);
+}
+
+.trends-section{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.61);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    overflow: hidden;
+}
+
+.trends-section-inner{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.trends-head{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.trends-head p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.trends-list{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.trends-list > p{
+    width: 100%;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.trends{
+    height: 60px;
+    list-style: none;
+    padding: 15px 5% 0 5%;
+    width: 90%;
+    display:flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    border-bottom: 1px solid black;
+}
+
+.trend-details p{
+    margin-bottom: 1px solid black;
+}
+
+.trend-category{
+    font-size: 12px;
+}
+
+.trend-hashtag{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.trend-stats{
+    font-size: 12px;
+}
+
+
+.message-tab{
+    width: 100%;
+    height: 40px;
+    background: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.message-tab-inner{
+    width: 100%;
+    display: flex;
+}
+
+.message-tab h4{
+    margin: 0 70px 0px 0px;
+}
